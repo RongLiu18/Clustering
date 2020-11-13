@@ -40,17 +40,6 @@ def getCentroids(k):
     plt.ylim(0,80)
     return plt.show()
     
-"""
-    N = 9
-    x = np.random.rand(N)
-    y = np.random.rand(N)
-
-    plt.scatter(x,y)
-    plt.show()
-    
-    return plt.show()
-"""
-
 
 def k_means(tweets, k=4, max_iterations=20):
 
